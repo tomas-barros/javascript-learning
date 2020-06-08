@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Playfair+Display:wght@500&display=swap');
+
+* {
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #3f3f44;
+}
+
+body {
+    background-color: #f7f7f7;
+}
+
+.container {
+    border-radius: 1rem;
+    background-color: #cceabb;
+    margin: 6rem 6rem auto;
+    padding: 2rem;
+    min-height: 80vh;
+}
+
+.title h1 {
+    font-family: 'Playfair Display', serif;
+    background-color: #fdcb9e;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 0.3rem;
+}
+
+.addSection {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 1rem;
+    padding: 1.5rem;
+    background-color: #fdcb9e;
+    border-radius: 3rem;
+}
+
+input {
+    padding: 12px 8px;
+    border: none;
+    outline: none;
+    background-color: #f7f7f7;
+    width: 200px;
+    transition: all 0.3s ease;
+}
+
+input:hover, input:focus {
+    background-color: #e7e5e5;
+    transform: scale(1.1);
+    box-shadow: black 0px 0px 5px ;
+}
+
+button {
+    border: none;
+    outline: none;
+    padding: 12px 8px;
+    background-color: #cceabb;
+    transition: all 0.3s ease;
+}
+
+button:hover, button:focus {
+    background-color: #abc79b;
+    transform: scale(1.1);
+    box-shadow: black 0px 0px 5px ;
+}
+
+.list {
+    margin: 1rem 3rem;
+}
+
+.fa-trash-alt {
+    background-color: rgb(187, 76, 76);
+    padding: 12px;
+    color: white;
+    border-radius: 5px;
+    font-size: 13pt;
+    cursor: pointer;
+    margin: 1.2rem 0 0 0;
+}
+
+.taskContainer {
+    text-align: justify;
+    background-color: #fdcb9e;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem;
+}
